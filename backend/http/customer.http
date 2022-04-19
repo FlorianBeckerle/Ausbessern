@@ -1,0 +1,39 @@
+POST http://localhost:8080/api/customer
+Content-Type: application/json
+
+{
+  "firstname": "Max",
+  "lastname": "Muster",
+  "street": "Mustergasse",
+  "houseno": "123",
+  "zip": "4020",
+  "city": "Linz"
+}
+
+###
+
+PUT http://localhost:8080/api/customer
+Content-Type: application/json
+
+{ "custid": 1,
+  "firstname": "Max",
+  "lastname": "Muster",
+  "street": "Mustergasse",
+  "houseno": "1",
+  "zip": "4021",
+  "city": "Linz"
+
+}
+
+###
+
+GET http://localhost:8080/api/customer/1
+Accept: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJodHRwOi8vaHRsLmF0L2lzc3VlciIsImdyb3VwcyI6WyJjdXN0b21lciJdLCJpYXQiOjE2MDM3MDM1MjksImV4cCI6MTYwMzcwMzU4OSwianRpIjoiSGhGQjA0TzUwZVZNOTdlU0tqWWcxZyJ9.DZsajSJMMXB673DnhV1JINIZgq_oEoUKM_334RaP2sFIZ86SorQsn2LQ9gaNjwiepDswxjsIq31l4SR58clNuFZlR4CP24C3Z4bQE_AiR5JGSdGPUEiWP2VBtsZa8ObOP5z6gBGxxlWvyuJv876MGr8BKrGYa44wtcS3WANZS6CyeAC4nBHviUL4DXlZbthjDqOsvOgW59oFRBtXVVLWXvqS_ggV0hjjMHegzxJ9zf7kcCvsMsD790KRHhLwxDNYRJinj9thfo_6OFZ5hQP3N-n_-SH59qAvgQedpRqarv3kA58uQDt1X0v0sERdvorCcO-t0QjWy4319npUe2GcRA
+
+###
+
+DELETE http://localhost:8080/api/customer/1
+Accept: application/json
+
+###

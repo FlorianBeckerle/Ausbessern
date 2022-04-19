@@ -1,0 +1,9 @@
+at\htl\model\Subject.class
+at\htl\repository\ExamRepository.class
+at\htl\dto\SchoolReport.class
+at\htl\repository\StudentRepository.class
+at\htl\model\Student.class
+at\htl\model\Exam.class
+at\htl\model\StudentId.class
+at\htl\dto\ExamDTO.class
+at\htl\boundary\ExamEndpoint.class

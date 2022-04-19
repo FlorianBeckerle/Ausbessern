@@ -1,0 +1,13 @@
+Tue Apr 19 13:19:16 CEST 2022 : Apache Derby Network Server 10.15.2.0 - (1873585) wurde gestartet und ist bereit, Verbindungen auf Port 1527 zu akzeptieren.
+----------------------------------------------------------------
+Tue Apr 19 13:19:45 CEST 2022:
+Booten von Derby-Version The Apache Software Foundation - Apache Derby - 10.15.2.0 - (1873585): Instanz a816c00e-0180-418c-50bc-ffffa91a5b02
+für Datenbankverzeichnis C:\Users\fb\Documents\5BHITM\SEW\Ausbessern\backend\db\db mit Class Loader jdk.internal.loader.ClassLoaders$AppClassLoader@73d16e93
+Geladen aus file:/C:/AAAASewProgramme/derby/db-derby-10.15.2.0-bin/lib/derby.jar
+java.vendor=Oracle Corporation
+user.dir=C:\Users\fb\Documents\5BHITM\SEW\Ausbessern\backend\db
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=C:\Users\fb\Documents\5BHITM\SEW\Ausbessern\backend\db
+Datenbank-Class Loader wurde gestartet - derby.database.classpath=''
